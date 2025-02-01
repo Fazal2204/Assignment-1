@@ -1,8 +1,14 @@
-from turtle import *
-a=Turtle()
-a.shape('turtle')
-a.color('red')
+import turtle
+t = turtle.Turtle()
+t.speed(0) # 1:slowest, 3:slow, 5:normal, 10:fast, 0:fastest
+t.pensize(1)
+t.color("black")
+t.penup()
+t.goto(0, -180)
+t.pendown()
 
-for i in range(100):
-  a.circle(130)
-  a.left(10)
+for i in range(12):
+  t.penup()
+  t.circle(210, 360/10)
+  t.pendown()
+  t.circle(130, 360)
