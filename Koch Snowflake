@@ -1,0 +1,28 @@
+from turtle import *
+a=Turtle()
+a.color('blue')
+a.penup()
+a.goto(-150, 90) # Starting position
+a.pendown()
+
+def koch_curve(a, l, d):
+    if d == 0:
+        a.forward(l)
+    else:
+        l=l/3
+        koch_curve(a, l, d-1) # Each segment is 1/3 the length of the original
+        a.left(60)
+        koch_curve(a, l, d-1)
+        a.right(120)
+        koch_curve(a, l, d-1)
+        a.left(60)
+        koch_curve(a, l, d-1)
+        #it draws all the segments
+
+def draw_koch_snowflake(a, l, d):
+    for i in range(3):
+        koch_curve(a, l, d)
+        a.right(120)
+
+
+draw_koch_snowflake(a, 200, 4) #recursion method
