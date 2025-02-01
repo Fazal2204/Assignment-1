@@ -1,0 +1,161 @@
+from turtle import *
+a=Turtle()
+a.color('red')
+a.shape('turtle')
+
+def move_turtle(x,y):
+  a.penup()
+  a.goto(x,y)
+  a.pendown()
+
+def letter_1(x,y):
+  move_turtle(x,y)
+  a.forward(50)
+  a.right(90)
+  a.forward(30)
+  a.right(90)
+  a.forward(50)
+  a.right(90)
+  a.forward(30)
+  a.backward(30)
+  a.right(90)
+  a.forward(25)
+  a.right(90)
+  a.forward(30)
+  a.left(90)
+  a.forward(30)
+  a.backward(60)
+
+def letter_2(x,y):
+  move_turtle(x,y)
+  a.forward(20)
+  a.penup()
+  a.goto(-125,35)
+  a.pendown()
+  a.forward(40)
+  a.penup()
+  a.goto(-105,-5)
+  a.pendown()
+  a.circle(14)
+
+def letter_3(x,y):
+  move_turtle(x,y)
+  a.right(90)
+  a.forward(60)
+  a.backward(30)
+  a.left(90)
+  a.forward(20)
+
+def letter_4(x,y):
+  move_turtle(x,y)
+  a.forward(30)
+  a.right(90)
+  a.forward(40)
+  a.right(90)
+  a.forward(30)
+  a.right(90)
+  a.forward(40)
+
+def letter_5(x,y):
+  move_turtle(x,y)
+  a.left(180)
+  a.forward(60)
+  a.backward(30)
+  a.left(90)
+  a.forward(20)
+  a.penup()
+
+
+def letter_6(x,y):
+  move_turtle(x,y)
+  a.forward(50)
+  a.backward(50)
+  a.right(90)
+  a.forward(30)
+  a.left(90)
+  a.forward(50)
+  a.penup()
+  a.goto(50,-10)
+  a.pendown()
+  a.forward(80)
+  
+
+def letter_7(x,y):
+  move_turtle(x,y)
+  a.forward(50)
+  a.right(90)
+  a.forward(30)
+  a.right(90)
+  a.forward(50)
+  a.left(90)
+  a.forward(30)
+  a.left(90)
+  a.forward(50)
+  
+
+def letter_8(x,y):
+  move_turtle(x,y)
+  a.right(90)
+  a.forward(70)
+  a.backward(35)
+  a.left(90)
+  a.forward(20)
+
+
+def letter_9(x,y):
+  move_turtle(x,y)
+  a.forward(20)
+  a.penup()
+  a.goto(-90,-65)
+  a.pendown()
+  a.forward(40)
+  a.penup()
+  a.goto(-70,-108)
+  a.pendown()
+  a.circle(15)
+  a.penup()
+  a.goto(-100,-120)
+  a.pendown()
+  a.forward(60)
+
+
+def letter_10(x,y):
+  move_turtle(x,y)
+  a.forward(50)
+  a.right(90)
+  a.forward(30)
+  a.right(90)
+  a.forward(50)
+  a.right(90)
+  a.forward(30)
+  a.penup()
+  a.right(90)
+  a.forward(70)
+  a.right(90)
+  a.pendown()
+  a.forward(70)
+  a.backward(35)
+  a.left(90)
+  a.forward(30)
+  a.penup()
+  a.goto(-15,-90)
+  a.pendown()
+  a.right(90)
+  a.forward(30)
+  a.left(90)
+  a.forward(30)
+
+  
+  
+  
+
+letter_1(-200,50)
+letter_2(-115,50)
+letter_3(-65,50)
+letter_4(-30,45)
+letter_5(25,50)
+letter_6(60,35)
+letter_7(-200,-50)
+letter_8(-130,-50)
+letter_9(-80,-50)
+letter_10(-30,-50)
