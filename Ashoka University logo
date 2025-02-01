@@ -1,0 +1,8 @@
+from turtle import *
+a=Turtle()
+a.shape('turtle')
+a.color('red')
+
+for i in range(100):
+  a.circle(130)
+  a.left(10)
