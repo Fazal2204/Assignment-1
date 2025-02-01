@@ -1,4 +1,4 @@
-from * import turtle
+from turtle import *
 t=Turtle()
 t.color("red")
 t.penup()
